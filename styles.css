@@ -1,0 +1,154 @@
+:root {
+  --border-color: #dde0e4;
+  --text-main: #1b1f25;
+  --text-secondary: #4e5a69;
+  --text-tertiary: #627083;
+  --status-border-success: #d9ede7;
+  --status-bg-success: #01855d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://i.imghippo.com/files/Xwu6520jbA.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  height: 100vh;
+}
+
+/* SPECIFIC COMPONENTS */
+
+.main-container {
+  max-width: 752px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(32px);
+}
+
+.header-image {
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.header-status {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  width: 22px;
+  height: 22px;
+  background-color: var(--status-bg-success);
+  border: 1px solid var(--status-border-success);
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-card {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* COLOR */
+
+.text-main {
+  color: var(--text-main);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-tertiary {
+  color: var(--text-tertiary);
+}
+
+/* FLEX */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  align-items: end;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+/* GRID */
+
+.grid-3-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* SPACING */
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+/* TYPOGRAPHY */
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.text-base {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 500;
+}
