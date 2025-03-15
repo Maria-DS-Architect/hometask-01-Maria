@@ -1,8 +1,8 @@
 :root {
-  --border-color: #dde0e4;
-  --text-main: #1b1f25;
-  --text-secondary: #4e5a69;
-  --text-tertiary: #627083;
+  --border-color: #8DE7C9;
+  --text-main: #E6E6E6;
+  --text-secondary: #CCCCCC;
+  --text-tertiary: #B8B8B8;
   --status-border-success: #d9ede7;
   --status-bg-success: #01855d;
 }
@@ -13,9 +13,9 @@
 }
 
 body {
-  font-family: sans-serif;
-  background-image: url(https://i.imghippo.com/files/Xwu6520jbA.png);
-  background-repeat: no-repeat;
+  font-family: Courier;
+  background-image: url(https://i.imghippo.com/files/JGD8280eI.png  );
+  background-repeat: repeat;
   background-size: cover;
   padding: 40px;
   height: 100vh;
@@ -32,8 +32,8 @@ body {
   padding: 16px;
   border-radius: 16px;
   border: 1px solid var(--border-color);
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(32px);
+  background-color: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
 }
 
 .header-image {
@@ -112,6 +112,10 @@ body {
 }
 
 /* SPACING */
+
+.gap-6 {
+  gap: 6px;
+}
 
 .gap-8 {
   gap: 8px;
